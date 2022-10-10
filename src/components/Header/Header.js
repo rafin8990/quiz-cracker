@@ -56,18 +56,18 @@ export default function NavBar() {
                             navbar ? "block" : "hidden"
                         }`}
                     >
-                        <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-gray-600 hover:text-blue-600">
+                        <ul className="items-center justify-center space-y-8 md:flex md:space-x-12 md:space-y-0">
+                            <li className="text-gray-600 hover:text-blue-600 hover:border-solid hover:border-2 hover:pl-2 hover:pr-2 hover:rounded-xl">
                                 <Link to='/home'>Home</Link>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
-                                <Link>Blog</Link>
+                            <li className="text-gray-600 hover:text-blue-600 hover:border-solid hover:border-2 hover:pl-2 hover:pr-2 hover:rounded-xl">
+                                <Link to='/blog'>Blog</Link>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
-                                <Link>About US</Link>
+                            <li className="text-gray-600 hover:text-blue-600 hover:border-solid hover:border-2 hover:pl-2 hover:pr-2 hover:rounded-xl">
+                                <Link to='/statictics'>Statictics</Link>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
-                                <Link>Contact US</Link>
+                            <li className="text-gray-600 hover:text-blue-600 hover:border-solid hover:border-2 hover:pl-2 hover:pr-2 hover:rounded-xl">
+                                <Link to='/about'>About Us</Link>
                             </li>
                         </ul>
                     </div>
