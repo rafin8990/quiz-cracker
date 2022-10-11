@@ -15,7 +15,7 @@ const Quiz = ({ quiz }) => {
             toast("Answer is Right!");
         }
         else {
-            toast("Answer is Wrong")
+            toast("OpS!!Answer is Wrong.Please Try again")
 
         }
     }
