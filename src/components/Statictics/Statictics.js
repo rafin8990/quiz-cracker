@@ -10,7 +10,9 @@ const Statictics = () => {
         .then(data=>setChart(data.data))
     },[setChart])
     return (
-        <div className='flex justify-center items-center'>
+        <div>
+          {/* line chart  */}
+          <div className='flex justify-center items-center'>
             <LineChart
         width={500}
         height={300}
@@ -34,6 +36,7 @@ const Statictics = () => {
           activeDot={{ r: 8 }}
         />
       </LineChart>
+        </div>
         </div>
     );
 };
