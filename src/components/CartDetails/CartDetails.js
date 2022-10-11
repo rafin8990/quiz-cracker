@@ -8,8 +8,8 @@ const CartDetails = ({cartDetails}) => {
           <div>
               <div className='border-solid border-2  bg-emerald-200'>
                 <img className='' src={logo} alt="" />
-                <h3 className='text-black'>Name: {name}</h3>
-                <h5 className='text-black'>Total Quiz: {total}</h5>
+                <h3 className='text-black text-2xl ml-3'>Name: {name}</h3>
+                <h5 className='text-black text-2xl ml-3'>Total Quiz: {total}</h5>
                 <Link to={`/CartDetails/${id}`}>  <button  className='text-white bg-orange-600 hover:bg-orange-700 w-full p-2'>View Details</button></Link>
             </div>
           </div>

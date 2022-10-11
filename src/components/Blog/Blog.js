@@ -25,7 +25,7 @@ const Blog = () => {
             </div>
             <div>
                 <div className='border-solid border-2 border-emerald-200 rounded-lg m-5'>
-                    <h1 className='text-2xl  bg-orange-600 font-bold text-white rounded-md'>Question One:What is purpose of react router?</h1>
+                    <h1 className='text-2xl  bg-orange-600 font-bold text-white rounded-md'>Question One : What is purpose of react router?</h1>
                     <div className='border-solid border-2 border-emerald-200 '>
                         <h3 className='text-2xl'>Answer:</h3>
                         <p className="text-md text-gray-600">
@@ -35,7 +35,7 @@ const Blog = () => {
                     </div>
                 </div>
                 <div className='border-solid border-2 border-emerald-200 rounded-lg m-5'>
-                    <h1 className='text-2xl  bg-orange-600 font-bold text-white rounded-md'>Question One:How does context API work?</h1>
+                    <h1 className='text-2xl  bg-orange-600 font-bold text-white rounded-md'>Question Two : How does context API work?</h1>
                     <div className='border-solid border-2 border-emerald-200 '>
                         <h3 className='text-2xl'>Answer:</h3>
                         <p className="text-md text-gray-600">
@@ -54,7 +54,7 @@ const Blog = () => {
                     </div>
                 </div>
                 <div className='border-solid border-2 border-emerald-200 rounded-lg m-5'>
-                    <h1 className='text-2xl  bg-orange-600 font-bold text-white rounded-md'>Question One:What is useRef?How Does it Work?</h1>
+                    <h1 className='text-2xl  bg-orange-600 font-bold text-white rounded-md'>Question Three : What is useRef?How Does it Work?</h1>
                     <div className='border-solid border-2 border-emerald-200 '>
                         <h3 className='text-2xl'>Answer:</h3>
                         <p className="text-md  text-gray-600">
