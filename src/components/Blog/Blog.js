@@ -9,17 +9,17 @@ const Blog = () => {
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                 <div className='flex flex-col justify-center items-center border-solid border-2  border-gray-100 bg-emerald-200 p-5 rounded-sm m-3'>
                     <img className=' h-60 w-56' src={image} alt="" />
-                    <h1 className='text-2xl font-bold'>Question one:</h1>
+                    <h1 className='text-2xl font-bold text-orange-800'>Question one:</h1>
                     <h3 className='text-xl'>What is purpose of react router?</h3>
                 </div>
                 <div className='flex flex-col justify-center items-center border-solid border-2  border-gray-100 bg-emerald-200 p-5 rounded-sm m-3'>
                     <img className=' h-60 w-56' src={pic1} alt="" />
-                    <h1 className='text-2xl font-bold'>Question two:</h1>
+                    <h1 className='text-2xl font-bold text-orange-800'>Question two:</h1>
                     <h3 className='text-xl'>How does context API work?</h3>
                 </div>
                 <div className='flex flex-col justify-center items-center border-solid border-2  border-gray-100 bg-emerald-200 p-5 rounded-sm m-3'>
                     <img className=' h-60 w-56' src={pic2} alt="" />
-                    <h1 className='text-2xl font-bold'>Question three:</h1>
+                    <h1 className='text-2xl font-bold text-orange-800'>Question three:</h1>
                     <h3 className='text-xl'>What is useRef? How does it work?</h3>
                 </div>
             </div>
