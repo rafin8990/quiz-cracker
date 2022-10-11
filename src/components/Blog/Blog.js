@@ -49,16 +49,7 @@ const Blog = () => {
                 </details>
                 
             </div>
-            <div className='flex sm:flex-col md:flex-col lg:flex-row items-center justify-around bg-emerald-200 p-5'>
-                <img className='' src={image} alt="" />
-                <div className='w-1/3'>
-                    <h1 className='text-4xl'>What Are You Thinking About?</h1>
-                    <h2 className='text-2xl'>Is there any problem with programming?</h2>
-                    <p className='text-sm text-gray-600'>Well, don't think much more about it . You just practice properly.Success will come to you definately.keep parcticcing coding regularly.Oneday you will become a big developer</p>
-                    <button className='text-2xl text-orange-800 mt-5 pl-5 pr-5 border-solid border-2 border-orange-800 rounded-2xl hover:bg-orange-800 hover:text-white'>About Us</button>
-            <button className='text-2xl ml-5 text-orange-800 mt-5 pl-5 pr-5 border-solid border-2 border-orange-800 rounded-2xl hover:bg-orange-800 hover:text-white'>Contact</button>
-                </div>
-            </div>
+            
         </div>
     );
 };

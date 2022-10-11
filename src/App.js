@@ -7,12 +7,14 @@ import Blog from './components/Blog/Blog';
 import Statictics from './components/Statictics/Statictics';
 import About from './components/About/About';
 import QuizDetails from './components/QuizDetails/QuizDetails';
+import Error from './components/Error/Error';
 
 function App() {
   const router=createBrowserRouter([
     {
       path:'/',
       element:<Main></Main>,
+      errorElement:<Error></Error>,
       children:[
         {
           path:'/',
