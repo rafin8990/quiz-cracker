@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Blog from './components/Blog/Blog';
 import Statictics from './components/Statictics/Statictics';
 import About from './components/About/About';
+import QuizDetails from './components/QuizDetails/QuizDetails';
 
 function App() {
   const router=createBrowserRouter([
@@ -26,6 +27,14 @@ function App() {
             return fetch('https://openapi.programming-hero.com/api/quiz')
           },
           element:<Home></Home>
+        },
+        {
+          path:'/CartDetails/:cartId',
+          loader:async({params})=>{
+            return fetch(`https://openapi.programming-hero.com/api/quiz/${params.cartId}`)
+          }
+         ,
+          element:<QuizDetails></QuizDetails>
         },
         {
           path:'/blog',
