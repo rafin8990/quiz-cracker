@@ -5,7 +5,7 @@ import image from '../../image.png'
 const Blog = () => {
     return (
         <div>
-            <div className="w-full px-8 mx-auto mt-20 space-y-2 shadow sm:max-w-lg bg-gray-200 m-5">
+            <div className="w-full px-8 mx-auto mt-20 space-y-2 shadow sm:max-w-md bg-gray-200 m-5">
                 <details className="p-4 rounded-lg">
                     <summary className="font-semibold text-2xl">What is the purpose of react router ?</summary>
                     <div className="mt-3">

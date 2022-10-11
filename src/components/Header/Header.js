@@ -66,9 +66,6 @@ export default function NavBar() {
                             <li className="text-gray-600 hover:text-blue-600 hover:border-solid hover:border-2 hover:pl-2 hover:pr-2 hover:rounded-xl">
                                 <Link to='/statictics'>Statictics</Link>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600 hover:border-solid hover:border-2 hover:pl-2 hover:pr-2 hover:rounded-xl">
-                                <Link to='/about'>About Us</Link>
-                            </li>
                         </ul>
                     </div>
                 </div>

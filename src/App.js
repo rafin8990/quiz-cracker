@@ -5,7 +5,6 @@ import Home from './components/Home/Home';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Blog from './components/Blog/Blog';
 import Statictics from './components/Statictics/Statictics';
-import About from './components/About/About';
 import QuizDetails from './components/QuizDetails/QuizDetails';
 import Error from './components/Error/Error';
 
@@ -45,11 +44,8 @@ function App() {
         {
           path:'/statictics',
           element:<Statictics></Statictics>
-        },
-        {
-          path:'/about',
-          element:<About></About>
         }
+       
       ]
     }
   ])
