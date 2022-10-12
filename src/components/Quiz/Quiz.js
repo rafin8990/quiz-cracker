@@ -31,7 +31,10 @@ const [answer, setAnswer]=useState('')
                 <h1 className='text-2xl'>Question:{question}</h1>
                 <div className='flex justify-around mt-5'>
                 <h1 className='text-2xl ml-5'> {answer}</h1>
+                <div className='flex'>
+                    <p>View Answer:</p>
                 <EyeIcon onClick={()=>handleEyeIcon(quiz)} className="h-6 w-6 text-blue-500 ml-5"/>
+                </div>
                 </div>
                 <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1'>
                     {
