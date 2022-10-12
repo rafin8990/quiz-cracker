@@ -1,6 +1,9 @@
 # live Website Link:
 (url:'https://megaquiz8990.netlify.app')
 
+# GitHub link:
+(url: 'https://github.com/programming-hero-web-course2/b6-quiz-crackerz-rafin8990')
+
 # Project Name : 
  **MegaQuiz Website**
 
