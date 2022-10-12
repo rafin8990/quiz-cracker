@@ -32,11 +32,11 @@ const Home = () => {
         </div>
         {/* data site  */}
         <div>
-        <h1 className='mt-12 text-4xl font-bold text-orange-800'>
+        <h1 className='mt-12 text-4xl font-bold text-orange-800 lg:ml-36 lg:mr-36'>
               Let's cheak whatever you know about a Developer.
             </h1>
         </div>
-        <div className='mt-12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+        <div className='mt-12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:m-36'>
         {
           data.map(cartDetails=><CartDetails
           key={cartDetails.id}
