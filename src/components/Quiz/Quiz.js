@@ -28,7 +28,7 @@ const [answer, setAnswer]=useState('')
         <div className='mt-12'>
             <div className=' bg-emerald-200 border-solid border-2 border-gray-600 rounded-xl md:w-3/4 lg:w-2/4 mx-auto'>
 
-                <h1 className='text-2xl'>Question:{question}</h1>
+                <h1 className='text-2xl'>Question:{question.slice(3,-4)}</h1>
                 <div className='flex justify-around mt-5'>
                 <h1 className='text-2xl ml-5'> {answer}</h1>
                 <div className='flex'>
